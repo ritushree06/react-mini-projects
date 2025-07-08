@@ -1,0 +1,59 @@
+
+.main{
+  background-color: rgb(172, 173, 232);
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  margin: 20px;
+  padding: 20px;
+}
+
+.title{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.inputbox{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+
+}
+
+.inputbox input{
+  flex: 1;
+  border: none;
+  padding: 5px;
+  border-top-left-radius: 10px ;
+  border-bottom-left-radius: 10px ;
+}
+.inputbox button{
+  border: none;
+  padding: 5px;
+  border-top-right-radius: 10px ;
+  border-bottom-right-radius: 10px ;
+  background-color:rgb(48, 103, 211);
+  color: white;
+}
+
+.custom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputrange{
+  margin: 5px;
+  color: rgb(242, 110, 2);
+}
+
+.inputcheck{
+  margin:5px;
+  color: rgb(242, 110, 2);
+}
